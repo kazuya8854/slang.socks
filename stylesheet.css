@@ -48,7 +48,7 @@ li {
 }
 #header ul {
   display: flex;
-  padding: 10px 0;
+  padding: 10px 100px;
 }
 #header li {
   font-size: 0.9rem;
@@ -93,16 +93,20 @@ About
   text-align:justify;
 }
 .about-title {
-  font-size: 20px;
+  font-size: 30px;
+  padding-left: 80px;
 }
 .est {
   font-size: 10px;
+  padding-left: 180px;
 }
 .url {
   font-size: 10px;
+  padding-left: 180px;
 }
 .mail {
   font-size: 10px;
+  padding-left: 180px;
 }
 /*-------------------------------------------
 Works
@@ -210,22 +214,6 @@ header#header {}
   }
   #works li {
     width: 100%;
-  }
-
-  /*-------------------------------------------
-  News
-  -------------------------------------------*/
-  #news dl {
-    flex-direction: column;
-  }
-  #news dt {
-    width: 100%;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
-  #news dd {
-    width: 100%;
-    padding-top: 0;
   }
 
   /*-------------------------------------------
