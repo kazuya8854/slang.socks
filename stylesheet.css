@@ -48,7 +48,7 @@ li {
 }
 #header ul {
   display: flex;
-  padding: 10px 100px;
+  padding: 10px 200px;
 }
 #header li {
   font-size: 0.9rem;
